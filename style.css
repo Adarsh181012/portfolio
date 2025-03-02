@@ -1,0 +1,159 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo img {
+  width: 120px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+nav ul li a:hover {
+  color: #ff6347;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #ff6347;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: white;
+}
+
+.hero .cta-button {
+  background-color: #fff;
+  color: #ff6347;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+.hero .cta-button:hover {
+  background-color: #ff4500;
+}
+
+/* Featured Products */
+.featured-products {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.product-item {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-item img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 15px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.view-product {
+  text-decoration: none;
+  color: #ff6347;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer .social-links a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+  background-color: aquamarine;
+  color: #ff6347;
+}
+
+footer .social-links a:hover {
+  color: #ff6347;
+}
+
+
+
+.fff{
+  color: aqua;
+  background-color: antiquewhite;
+}
+
+.ddd{
+  color: burlywood;
+}
+
+
+
+.truncate{
+  color: aqua;
+  background-color: antiquewhite;
+  border: 5PX solid black;
+  width: 200px;
+}
+
+.sda{
+  height: 10%;
+  width: 2.4%;
+}
+
+.adad{
+  color: #ff4500;
+}
+
+
+
+.MoPwtI{
+  width: 99PX;
+}
